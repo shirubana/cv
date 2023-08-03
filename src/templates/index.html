@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Silvana Ovait, PhD. Research Scientist</title>
+    <title>{{ name }}. {{ title }}</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,23 +19,23 @@
         <div class="row">
             <div class="col-print-6 col-12 col-md-4 d-flex justify-content-between flex-column">
                 <div>
-                    <h1 class="mb-0">Dr. Silvana Ovaitt</h1>
-                    <div class="fs-3">Research Scientist</div>
+                    <h1 class="mb-0">{{ name }}</h1>
+                    <div class="fs-3">{{ title }}</div>
                 </div>
                 <div>
                     <p>
-                        <time datetime="{{ buildinfo.date }}" class="small">Last update: August 2023</time>
+                        <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
                     </p>
                     <p>
                         <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
-                        <span class="print">Up-to-date version of CV is available at <a href="shirubana.github.io/cv"
+                        <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
                                                                                         class="text-nowrap"><i
-                            class="fab fa-github" aria-hidden="true"></i>shirubana.github.io/cv</a></span>
+                            class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
                     </p>
                 </div>
             </div>
             <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-                <img src="Silvana.jpg" class="rounded-circle img-fluid" alt="Dr. Silvana Ovaitt photo">
+                <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
             </div>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">

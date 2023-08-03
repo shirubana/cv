@@ -1,33 +1,29 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Dr. Silvana Ovaitt',
+  title: 'Research SCientist',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Residence': '<a href="https://goo.gl/maps/Dijftkucy1oMWGjBA"><i class="fa fa-home fact-icon"></i>Denver</a>',
+    'Publications': `<a href="https://orcid.org/0000-0003-0180-728X">
+                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>OrcID
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Linkedin': `<a href="https://www.linkedin.com/in/silvana-ovaitt/"><i class="fa-brands fa-twitter fact-icon"></i>silvana-ovaitt</a>`,
+    'Email': '<a href="mailto:silvana.ovaitt@nrel.govm"><i class="fa fa-envelope fact-icon"></i>silvana.ovaitt@nrel.gov</a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['Multidisciplinary', 100],
+    ['Science & Engineering', 100],
+    ['Open Source Developer', 100],
+    ['Bifacial Photovoltaics', 100],
+    ['Modeling & Analysis', 100],
+    ['Science Communication & Outreach', 100],
+    ['Hands-on, DIY & Crafts', 100],
+
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: 'NREL',
+      period: '2017-present',
+      skills: ['project management', 'science-industry collaborations', 'real-world data analyss'],
       contents: `
 Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
 `
